@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+.plan_quick.md
+example.md
+plan_quick.md
