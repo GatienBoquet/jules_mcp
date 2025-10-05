@@ -1,10 +1,10 @@
-# Jules MCP Server
+# Unofficial Jules MCP Server
 
 [![npm version](https://img.shields.io/npm/v/jules-mcp-server.svg)](https://npmjs.org/package/jules-mcp-server)
 
 `jules-mcp-server` connects your AI coding assistant (such as Claude, Cursor, or Copilot) to the [Jules API](https://jules.ai), enabling autonomous coding sessions directly from your IDE. It acts as a Model Context Protocol (MCP) server, giving your AI assistant the ability to create coding sessions, manage tasks, and interact with Jules agents for automated software development.
 
-## [Changelog](./CHANGELOG.md) | [Validation Examples](./VALIDATION_EXAMPLES.md) | [Troubleshooting](#troubleshooting)
+## [Changelog](./CHANGELOG.md) | [Troubleshooting](#troubleshooting)
 
 ## Key features
 
@@ -22,7 +22,7 @@
 ## Requirements
 
 - [Node.js](https://nodejs.org/) v18 or newer
-- [Jules API account](https://jules.ai) with API key
+- [Jules API account](https://developers.google.com/jules/api) with API key
 - [npm](https://www.npmjs.com/)
 
 ## Getting started
@@ -451,5 +451,5 @@ MIT License - see LICENSE file for details.
 ## Support
 
 - **Issues:** [GitHub Issues](https://github.com/yourusername/jules-mcp-server/issues)
-- **Jules API:** [jules.ai](https://jules.ai)
+- **Jules API:** [jules API](https://developers.google.com/jules/api)
 - **MCP Specification:** [modelcontextprotocol.io](https://modelcontextprotocol.io)

@@ -1,0 +1,36 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+.env
+.env.example
+*.log
+test-validation.js
+example.md
+plan_quick.md
+cursor-mcp.json
+
+# Git
+.git
+.gitignore
+.github
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+*.tsbuildinfo

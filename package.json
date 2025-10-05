@@ -1,13 +1,46 @@
 {
   "name": "jules-mcp-server",
   "version": "0.2.0",
-  "private": true,
   "type": "module",
+  "description": "MCP server connecting AI assistants to the Jules API for autonomous coding sessions",
+  "main": "dist/server.js",
+  "bin": {
+    "jules-mcp-server": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "jules",
+    "ai",
+    "coding-assistant",
+    "model-context-protocol",
+    "cursor",
+    "claude"
+  ],
+  "author": "Gatien <gatien.boquet@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatienboquet/jules-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gatienboquet/jules-mcp-server/issues"
+  },
+  "homepage": "https://github.com/gatienboquet/jules-mcp-server#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "tsx src/server.ts",
     "start": "tsx src/server.ts",
     "build": "tsc -p tsconfig.json",
-    "start:node": "node dist/server.js"
+    "start:node": "node dist/server.js",
+    "prepublishOnly": "npm run build",
+    "prepack": "npm run build"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.19.0",
